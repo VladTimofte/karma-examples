@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Converter Valutar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Converter Valutar</h1>
+    <label for="amount">Suma:</label>
+    <input type="number" id="amount" placeholder="Introdu suma" />
+
+    <label for="fromCurrency">Din moneda:</label>
+    <select id="fromCurrency">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="RON">RON</option>
+      <option value="GBP">GBP</option>
+    </select>
+
+    <label for="toCurrency">În moneda:</label>
+    <select id="toCurrency">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="RON">RON</option>
+      <option value="GBP">GBP</option>
+    </select>
+
+    <button id="convertButton">Convertește</button>
+
+    <div id="result"></div>
+    <div id="error"></div>
+  </div>
+
+  <script type="module" src="./domHandler.js"></script>
+</body>
+</html>

@@ -7,6 +7,6 @@
     "karma-jasmine": "^5.1.0"
   },
   "scripts": {
-    "test": "karma start"
+    "test": "karma start karma.conf.js"
   }
 }
